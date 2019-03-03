@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/RegisterForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/octopedia" />
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="User Information"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4" />
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Username"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <EditText
+                android:id="@+id/Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Email"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Password"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textview5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="TOEFL"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+                    <EditText
+                        android:id="@+id/toefl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="TOEFL"
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textview4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="GPA"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+                    <EditText
+                        android:id="@+id/gpa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="GPA"
+                        android:inputType="numberDecimal"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textview6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="GRE"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+                    <EditText
+                        android:id="@+id/gre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="GRE"
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textview7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="SAT"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+                    <EditText
+                        android:id="@+id/sat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="SAT"
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

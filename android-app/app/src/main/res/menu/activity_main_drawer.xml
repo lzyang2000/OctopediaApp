@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ask"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Ask Octopedia" />
+        <item
+            android:id="@+id/score"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Score Conversion" />
+        <item
+            android:id="@+id/compare"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Compare Colleges" />
+        <item
+            android:id="@+id/chance"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Chance Me" />
+        <item
+            android:id="@+id/blog"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Octoblog" />
+        <item
+            android:id="@+id/plan"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Help Me Plan" />
+    </group>
+
+</menu>
