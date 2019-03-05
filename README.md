@@ -1,4 +1,4 @@
 # Octopedia Android Project
 
 - Framework<br>
-  First version of frontend, have yet to add backend support and chat functionality.
+ Chat is implemented, have yet to add backend support for login and register functions.
